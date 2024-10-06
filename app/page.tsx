@@ -86,7 +86,7 @@ export default function EnhancedImageConverter() {
     formData.append('type', type)
   
     try {
-      const response = await fetch('http://35.153.182.117:3000/api/convert', {
+      const response = await fetch('https://imageconverter--image-converter-89e05.us-central1.hosted.app/api/convert', {
         method: 'POST',
         body: formData,
       })
